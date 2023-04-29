@@ -19,5 +19,6 @@ services:
     
     environment:
       MONGO_INITDB_ROOT_USERNAME: lee
-      MONGO_INITDB_ROOT_PASSWORD: sanghoon 
+      MONGO_INITDB_ROOT_PASSWORD: sanghoon
       MONGO_INITDB_DATABASE: example
+      
