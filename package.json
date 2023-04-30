@@ -8,8 +8,9 @@
   },
   "scripts": {
     "test": "tap \"test/**/*.test.js\"",
-    "start": "fastify start -l info app.js --address 0.0.0.0",
+    "start": "docker-compose up -d",
     "dev": "fastify start -w -l info -P app.js"
+    
   },
   "keywords": [],
   "author": "",
