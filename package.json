@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "tap \"test/**/*.test.js\"",
-    "start": "docker-compose up -d",
+    "start": "fastify start -l info app.js --address 0.0.0.0",
     "dev": "fastify start -w -l info -P app.js"
     
   },
