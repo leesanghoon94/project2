@@ -11,9 +11,13 @@ services:
       
 
   mongo:
-    image: mongo:latest
+    image: leesanghoon94/mongo:1.0
     container_name: mongo
     ports:
       - "27017:27017"
 
-    
+    environment:
+      
+      MONGO_INITDB_ROOT_USERNAME: lee
+      MONGO_INITDB_ROOT_PASSWORD: sanghoon
+#//mongodb://lee:sanghoon@localhost:27017/?authMechanism=DEFAULT
