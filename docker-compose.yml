@@ -10,19 +10,10 @@ services:
       - "3000:3000"
       
 
-
-
   mongo:
-    image: mongo
+    image: mongo:latest
     container_name: mongo
     ports:
       - "27017:27017"
+
     
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
-      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}  
-      MONGO_INITDB_ROOT_HOSTNAME: ${MONGO_INITDB_ROOT_HOSTNAME}
-      
-      MONGO_USERNAME: ${MONGO_USERNAME}  
-      MONGO_PASSWORD: ${MONGO_PASSWORD}
-      MONGO_HOSTNAME: ${MONGO_HOSTNAME}
