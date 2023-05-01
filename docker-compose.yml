@@ -20,4 +20,3 @@ services:
       
       MONGO_INITDB_ROOT_USERNAME: lee
       MONGO_INITDB_ROOT_PASSWORD: sanghoon
-#//mongodb://lee:sanghoon@localhost:27017/?authMechanism=DEFAULT

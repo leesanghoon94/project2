@@ -14,4 +14,4 @@ module.exports = fp(async function (fastify, opts) {
   })
 })
 
-//mongodb://lee:sanghoon@mongo-nlb-2-e04cd1bca214792b.elb.ap-northeast-2.amazonaws.com/?authMechanism=DEFAULT
+

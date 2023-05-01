@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:124121153800:task-definition/backend-task:2",
+    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:124121153800:task-definition/backend-task:17",
     "containerDefinitions": [
         {
             "name": "backend-container",
-            "image": "124121153800.dkr.ecr.ap-northeast-2.amazonaws.com/leesanghoon94/backend:8d473522f0a7d0372b939b7ec7fc5765006a6414",
+            "image": "124121153800.dkr.ecr.ap-northeast-2.amazonaws.com/leesanghoon94/backend:ba6a715b7cd6c92489da6bb884ed70ef4068f953",
             "cpu": 0,
             "portMappings": [
                 {
@@ -16,10 +16,8 @@
             ],
             "essential": true,
             "environment": [],
-            "environmentFiles": [],
             "mountPoints": [],
             "volumesFrom": [],
-            "ulimits": [],
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
@@ -34,7 +32,7 @@
     "family": "backend-task",
     "executionRoleArn": "arn:aws:iam::124121153800:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 2,
+    "revision": 17,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -77,7 +75,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-04-30T00:55:25.862Z",
+    "registeredAt": "2023-05-01T17:14:57.134Z",
     "registeredBy": "arn:aws:iam::124121153800:root",
     "tags": []
 }
