@@ -11,7 +11,7 @@ services:
       
 
   mongo:
-    image: leesanghoon94/mongo:1.0
+    image: mongo:latest
     container_name: mongo
     ports:
       - "27017:27017"
